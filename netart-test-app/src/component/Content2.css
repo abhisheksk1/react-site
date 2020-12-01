@@ -1,0 +1,103 @@
+.install {
+    margin-left: -4rem;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.image3 {
+    max-width: 1000px;
+}
+
+.img-info {
+    margin-left: 12rem;
+}
+
+hr {
+    border: 1px solid crimson;
+}
+
+.vertical-line {
+    display: inline-block;
+    border-left: 1.3px solid crimson;
+    margin: 0 10px;
+    height: 14px;
+}
+
+.work {
+    text-align: center;
+    margin-left: -3rem;
+    font-size: 15px;
+}
+
+.hr-heading {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+    .install {
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+    }
+    .image3 {
+        max-width: 440px;
+        height: 200px;
+    }
+    .img-info {
+        margin-left: 1rem;
+        font-size: 0.8rem;
+    }
+    .work {
+        text-align: center;
+        margin-left: 0.5rem;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .install {
+        margin: 0 auto;
+    }
+    .image3 {
+        max-width: 540px;
+        height: 260px;
+        margin-left: -0.8rem;
+    }
+    .img-info {
+        margin-left: 1rem;
+        font-size: 0.8rem;
+    }
+    .work {
+        margin-left: -2rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    .install {
+        margin: 0 auto;
+    }
+    .image3 {
+        max-width: 690px;
+    }
+    .img-info {
+        margin-left: 3rem;
+        font-size: 0.85rem;
+    }
+    .work {
+        margin-left: 0rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1099px) {
+    .install {
+        margin: 0 auto;
+    }
+    .image3 {
+        max-width: 900px;
+    }
+    .img-info {
+        margin-left: 5rem;
+    }
+    .work {
+        margin-left: 0.6rem;
+    }
+}
