@@ -1,0 +1,442 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.main-container {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto 20px auto;
+    position: relative;
+    -webkit-box-shadow: 3px 3px 5px 6px white;
+    box-shadow: 3px 3px 5px 6px white;
+}
+
+article {
+    display: block;
+}
+
+.main-container article .upper {
+    display: inline-block;
+    padding: 25px;
+}
+
+.main-container article .container-left {
+    width: 35%;
+}
+
+.main-container article .container-left h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main-container article .container-left #medium {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: darkgrey;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-container article .container-left .key-words {
+    font-weight: 500;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.main-container article .container-right {
+    width: 35%;
+}
+
+.main-container article .container-right ul {
+    list-style: none;
+}
+
+.main-container article .container-right li {
+    text-align: right;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.main-container article ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container article .container-mid img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.main-container article .container-mid {
+    padding: 0px;
+    width: 20%;
+    text-align: center;
+}
+
+.main-container article .inline {
+    display: inline-block;
+    padding: 25px;
+    width: 50%;
+}
+
+.main-container article h2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: inline;
+    font-size: 20px;
+}
+
+.main-container article #medium {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-container article .m-top {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.main-container article .education .university-name {
+    font-weight: 400;
+}
+
+.main-container article #extra-small {
+    font-size: 12px;
+    font-style: italic;
+    color: darkgrey;
+}
+
+.main-container article .education .percenatge {
+    margin-top: 5px;
+}
+
+.main-container article ul {
+    list-style: none;
+}
+
+.main-container article .education ul .left {
+    float: left;
+}
+
+.main-container article .education ul .right {
+    float: right;
+}
+
+.main-container article .top {
+    margin-top: 50px;
+}
+
+.main-container article h2 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: inline;
+    font-size: 20px;
+}
+
+.main-container article .skills {
+    position: absolute;
+    top: 550px;
+}
+
+.main-container article .skills ul {
+    margin-top: 20px;
+}
+
+.main-container article .m-top {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.main-container article .skills li {
+    background-color: darkgrey;
+    color: white;
+}
+
+.main-container article .skills li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    padding: 9px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.main-container article #medium {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-container article .m-top {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.main-container article .work-exp {
+    top: 720px;
+}
+
+.main-container article .work-exp h3 span {
+    font-weight: 400;
+}
+
+.main-container article .work-exp span {
+    color: black;
+}
+
+.main-container article .work-exp ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 3px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.main-container article .work-exp ul span {
+    font-size: 22px;
+    margin-left: -10px;
+}
+
+.main-container article .work-exp span {
+    color: black;
+}
+
+.main-container a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.main-container article .projects {
+    width: 49%;
+    position: relative;
+    bottom: 10px;
+}
+
+.main-container article .projects ol {
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.main-container article .projects ol ul {
+    font-size: 12px;
+}
+
+.main-container article .projects ol ul li span {
+    font-size: 22px;
+    margin-left: -10px;
+}
+
+.main-container article .projects ol ul li {
+    list-style: none;
+}
+
+.main-container article .other-initiative {
+    position: relative;
+    bottom: 20px;
+}
+
+.main-container article .language {
+    width: 49%;
+    position: relative;
+    bottom: 40px;
+}
+
+.main-container article .language li {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.main-container article .interest {
+    width: 49%;
+    position: relative;
+    bottom: 160px;
+    right: 300px;
+}
+
+.main-container article .interest ul {
+    margin-top: 20px;
+}
+
+.main-container article .interest li {
+    background-color: white;
+    color: black;
+    border: 2px solid darkgrey;
+}
+
+.main-container article .interest li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    padding: 9px;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: crosshair;
+}
+
+.main-container article .interest li:hover {
+    background-color: green;
+}
+
+@media (min-width: 961px) and (max-width: 1200px) {
+    .mainContainer {
+        width: 95%;
+    }
+    .main-container article .skills {
+        top: 700px;
+    }
+    .main-container article .education {
+        top: -1rem;
+    }
+    .main-container article .work-exp {
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 960px) {
+    .main-container article .container-right {
+        width: 100%;
+        text-align: center;
+    }
+    .main-container article .container-right li {
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-left: 3px;
+        padding: 9px;
+        font-size: 12px;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        border: 2px solid darkgrey;
+        cursor: pointer;
+    }
+    .main-container article .education {
+        width: 90%;
+    }
+    .main-container article .work-exp {
+        width: 90%;
+    }
+    .main-container article .projects {
+        width: 90%;
+    }
+    .main-container article .skills {
+        top: 263vh;
+        width: 90%;
+        right: 30px;
+    }
+    .main-container article .other-initiative {
+        width: 90%;
+        top: -10px;
+    }
+    .main-container article .language {
+        width: 90%;
+        top: 130px;
+    }
+    .main-container article .interest {
+        width: 90%;
+        left: 5px;
+        top: 130px;
+    }
+    .main-container {
+        height: 350vh;
+    }
+    .main-container article .container-left {
+        width: 100%;
+    }
+    .main-container article .container-mid {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mainContainer article .container-left {
+        width: 65%;
+    }
+    .main-container article .container-right {
+        width: 100%;
+        text-align: center;
+    }
+    .main-container article .container-right li {
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-left: 3px;
+        padding: 9px;
+        font-size: 12px;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        border: 2px solid darkgrey;
+        cursor: pointer;
+    }
+    .main-container article .education {
+        width: 90%;
+    }
+    .main-container article .work-exp {
+        width: 90%;
+    }
+    .main-container article .projects {
+        width: 90%;
+    }
+    .main-container article .skills {
+        top: 253vh;
+        width: 90%;
+        right: 30px;
+    }
+    .main-container article .other-initiative {
+        width: 90%;
+        top: 180px;
+    }
+    .main-container article .language {
+        width: 90%;
+        top: 130px;
+    }
+    .main-container article .interest {
+        width: 90%;
+        left: 5px;
+        top: 130px;
+    }
+    .main-container {
+        height: 390vh;
+    }
+    .main-container article .container-left {
+        width: 100%;
+    }
+    .main-container article .container-mid {
+        width: 100%;
+    }
+}
